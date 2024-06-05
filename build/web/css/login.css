@@ -1,0 +1,120 @@
+
+html {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+.footer {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: white;
+  align-content: center;
+}
+
+.margin-login {
+  margin-left: 31%;
+}
+
+.login {
+  padding: 90px 75px;
+  background-color: #fff;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 30px;
+}
+
+.login-heading {
+  font-size: 40px;
+  font-weight: bold;
+  color: #373941;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.login-label {
+  font-size: 16px;
+  color: #63676b;
+  font-weight: 500;
+  margin-bottom: 10px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.login-input {
+  display: block;
+  width: 100%;
+  padding: 25px;
+  border-radius: 14px;
+  background-color: #f2f3f5;
+  outline: black;
+  border: 1px solid;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.checkbox-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.checkbox-text .checkbox-content {
+  display: flex;
+  align-items: center;
+  color: #63676b;
+  font-size: 11px;
+}
+.checkbox-text a.text {
+  color: #ff523b;
+  font-size: 15px;
+}
+.checkbox-text a.text:hover {
+  color: #563434;
+}
+
+.login-submit {
+  padding: 25px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  border: 0;
+  outline: none;
+  display: inline-block;
+  width: 100%;
+  border-radius: 14px;
+  background-color: #ff523b;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  font-weight: 600;
+
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.login-submit:hover {
+  background: #563434;
+}
+
+.login-already {
+  text-align: center;
+  font-size: 16px;
+  color: #999;
+}
+
+.signup-link {
+  color: #ff523b;
+  text-decoration: none;
+}
+.signup-link:hover {
+  color: #563434;
+}
+
+
+.error-message {
+  color: red;
+}

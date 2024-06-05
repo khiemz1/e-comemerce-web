@@ -1,0 +1,54 @@
+.h-container {
+  max-width: 100%;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.h-navbar {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  margin-right: 0;
+}
+.h-navbar img {
+  margin-right: 15px;
+}
+
+.trans-img:hover {
+  opacity: 0.3;
+}
+
+.h-content:hover {
+  color: #ff523b;
+}
+
+.logo-header {
+  border-radius: 300px;
+  max-height: fit-content;
+  margin-left: 50px;
+}
+
+.h-location {
+  background-size: 2000px;
+  width: 100%;
+  background-color: #ff523b;
+}
+.h-hr-style {
+  width: 100%;
+}
+.h-location-text {
+  margin-left: 6%;
+  color: #cec7c7b8;
+  padding: 4px 0px;
+}
+.h-location-text a {
+  color: #fff;
+  font-size: 22px;
+}
+.h-location p {
+  font-size: 22px;
+}
+.h-location-text a:hover {
+  color: black;
+}

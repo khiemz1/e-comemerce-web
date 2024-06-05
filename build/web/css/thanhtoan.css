@@ -1,0 +1,179 @@
+
+html {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.info {
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.info-container2 {
+    width: 700px;
+    margin: 20px 20px 20px 40px;
+}
+
+.info-shoe {
+    padding: 20px;
+    border: 2px solid #ff523b;
+    border-radius: 2px;
+}
+
+.info-shoe_heading {
+    padding-top:10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid gray;
+    font-size:150%;
+    margin-bottom: 30px;
+}
+
+.info-shoe_product {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin:16px 0px;
+}
+
+.info-shoe_product_name {
+    padding-right: 20px;
+    text-align: left;
+}
+
+.info-shoe_product_amount {
+    text-align: right;
+    font-weight: bold;
+}
+
+.info-shoe{
+    padding: 20px;
+    border: 2px solid #ff523b;
+    border-radius: 2px;
+}
+
+
+.info-shoe_info {
+    padding:10px 0px;
+    border-top: 1px solid gray;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.info-shoe_info2 {
+    padding:10px 0px;
+    border-top: 1px solid gray;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+
+.info-shoe_cost {
+    padding:10px 0px;
+    border-top: 1px solid gray;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.info-shoe_cost2 {
+    padding:10px 0px;
+    border-top: 1px solid gray;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.info-shoe_cost3 {
+    padding:10px 0px;
+    border-top: 1px solid gray;
+    display: grid;
+    grid-template-columns: auto auto;
+    border-bottom: 2px solid gray;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.info-shoe_cost_total{
+    text-align: left;
+}
+
+.info-shoe_cost_money {
+    text-align: right;
+    font-weight: bold;
+}
+
+.info-shoe_info_account{
+    text-align: left;
+}
+
+.info-shoe_info_account_name {
+    text-align: right;
+    font-weight: bold;
+}
+
+
+.info-shoe_sale{
+    text-align: left;
+}
+
+.info-shoe_sale_code {
+    text-align: right;
+    font-weight: bold;
+}
+
+.info-shoe_radio{
+    margin:5px 0px;
+}
+
+.info-form_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.btnThanhToan {
+    background-color: #ff523b;
+    color: white;
+    width: 170px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btnThanhToan:hover {
+    background-color: #563434;
+}
+
+#nganHang {
+    width: 25%;
+    border-radius: 5px;
+    outline: black;
+    border: 1px solid;
+    font-size: 15px;
+    padding: 5px 5px;
+}
+
+.soTaiKhoan {
+    width: 85%;
+    border-radius: 5px;
+    outline: black;
+    border: 1px solid;
+    font-size: 15px;
+    padding: 5px 5px;
+}
+
+.diaChi {
+    width: 78%;
+    border-radius: 5px;
+    outline: black;
+    border: 1px solid;
+    font-size: 15px;
+    padding: 5px 5px;
+}
